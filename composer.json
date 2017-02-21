@@ -1,0 +1,39 @@
+{
+    "name": "komer45/yii2-avia",
+    "description": "its a avia module",
+    "keywords": ["yii2", "yii 2", "application", "avia",  "module", "komer45"],
+    "homepage": "https://github.com/komer45/yii2-avia",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/komer45/yii2-avia"
+    },
+    "authors": [
+        {
+            "name": "Komarov Vlad",
+            "email": "komer45@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+	"prefer-stable" : true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "komer45\\avia\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "komer45\\avia\\Bootstrap"
+    }
+}
